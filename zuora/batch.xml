@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My suite">
+	<suite-files>
+	<suite-file path="./Zuora_Subscription_Single_user_testng.xml"/>
+	<suite-file path="./Zuora_Subscription_Random_user_testng.xml"/>  
+	<!-- <suite-file path="./Ashot_Comparison_QA_Live_testng.xml"/>
+	<suite-file path="./Zuora_Cancellation_flow_testng.xml"/> 
+	<suite-file path="./Zuora_Subscription_flow_testng.xml"/> -->
+ </suite-files>
+</suite> 
+

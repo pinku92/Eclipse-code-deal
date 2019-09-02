@@ -1,0 +1,58 @@
+Before suite :
+
+To create new user in CSR , get a data from CSR by validating that user is already existing or not
+If not need to create new user in CSR and call the ZUORA user creation method by passing the parameter as arguments and maintaining all the constants in constant sheet as String
+Else need to do else portions as skip that user creation content for both CSR and ZUORA
+Inside the Data provider i need to get the data for to create subscription for each product based on that it will navigate to the created user for each time and do its subscription
+based on the product name which parameterized from data provider
+After test invoice process and payment process will run
+After suite:
+
+Mail configuration and Excel sheet , Extent report generation
+Functional Difficulties:
+
+To get data from all the relevant pages and stored in array finally to write all the stored array data into excel sheet as a output to validate
+To get payment method id from page source and trim & split operations needs to be done
+Dynamic URL operations need to do in after test or suite
+
+Create Customer Fields:
+Account name:csr_mail id
+user id:csr id
+OID:
+Bill to contact all:(Work email,Address2-no need)
+Payment method:credit card
+update all the CCdetails
+
+///////Need to create subscription:
+
+click create subs btn
+enter payment method id
+product name
+leg type :
+free trial - for all except QR
+straight paid - for QR
+select product from dropdown and select proper rate polan product from another dropdown 
+click save and active
+handle two datepicker with same date current date
+
+thing which iam going to use here is to  pass product id and rate plan as a input for zuora subscription
+
+
+Click create bill run link
+Click create bill run button from bill run page
+click ok
+navigate to customer page wait some more time , refresh and check for invoice number and store  it into string 
+
+after that:
+
+http://stagezuorapay.thestreet.com/zuora/invoices/invoicenr/INV00440796/process
+
+String = /zuora/invoices/invoicenr/INV00440796/process
+
+
+http://stagezuorapay.thestreet.com/login
+admin
+theStreet
+
+
+
