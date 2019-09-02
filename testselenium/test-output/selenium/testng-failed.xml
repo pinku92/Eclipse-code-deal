@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [selenium]">
+  <test thread-count="5" name="testselenium(failed)">
+    <classes>
+      <class name="com.test.retirementTC">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="after"/>
+          <include name="retsite"/>
+        </methods>
+      </class> <!-- com.test.retirementTC -->
+    </classes>
+  </test> <!-- testselenium(failed) -->
+</suite> <!-- Failed suite [selenium] -->

@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "selenium">
+<test name = "testselenium">
+<classes >
+<class name ="com.test.base"></class>
+<class name="com.test.retirementTC"></class>
+</classes>
+</test>
+</suite>
+
+
+
